@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Cruz Vermelha Portuguesa, Delegação de Maiorca">
     <meta name="author" content="Brainvoid Technologies <brainvoidtechnologies.pt>">
 
-    <title>Cruz Vermelha Portuguesa - Delegação de Maiorca</title>
+        <title>Cruz Vermelha Portuguesa - Delegação de Maiorca</title>
 
-    <!-- favorite icon/shortcut icon -->
-    <link href="img/favicon/redcrosso_favicon1.png" rel="icon" type="image/png" >
+        <!-- favorite icon/shortcut icon -->
+        <link href="img/favicon/redcrosso_favicon1.png" rel="icon" type="image/png" >
 
-    <!-- Bootstrap
-    * Bootstrap Classes: http://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp
-    * Glyphicons: http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp
+        <!-- Bootstrap
+        * Bootstrap Classes: http://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp
+        * Glyphicons: http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp
     -->
     <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
 
@@ -22,39 +22,47 @@
     <!--link rel="stylesheet" href="../css/cvpmaiorca.css" type="text/css"-->
 
 
-  </head>
-  <body class="login-body" >
+</head>
+<body class="login-body" >
     <div class="container">
-      <div class="login-logo-container">
-        <a href="../template-olympus.html" class="text-center login-title"><img src="img/logo_cruz.png"/></a>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 col-md-4 col-md-offset-4">
-
-          <div class="account-wall">
-            <img class="profile-img" src="img/avatar/red_cross_avatar_default.png" alt="" ></img>
-            <form id="form-user-signin" class="form-signin" method="post">
-
-              <label for="fr_username" class="control-label"> Endere&ccedil;o de email</label>
-              <input name="fr_username" type="email" class="form-control" placeholder="Email" required autofocus />
-              <label for="fr_password"> Password</label>
-              <input name="fr_password" type="password" class="form-control" placeholder="Password" required />
-              <button class="btn btn-lg btn-primary btn-block" type="button" onclick="submit_login()">Entrar</button>
-              <label for="fr_remember-me" class="checkbox pull-left">
-                <input name="fr_remember-me" type="checkbox" value="false">Manter-me ligado
-              </label>
-              <a href="#" class="pull-right need-help">Precisa de Ajuda? </a><span class="clearfix"></span>
-            </form>
-          </div>
-          <!--
-          <a href="#" class="text-center new-account">Pedir activação de conta</a>
-          -->
+        <div class="login-logo-container">
+            <a href="#" class="text-center login-title"><img src="img/logo_cruz.png"/></a>
         </div>
-      </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-md-offset-4">
+
+                <div class="account-wall">
+                    <img class="profile-img" src="img/avatar/red_cross_avatar_default.png" alt="" ></img>
+                    <form id="form-user-signin" class="form-signin" method="post">
+
+
+                        <label for="fr_username" class="control-label"> Endere&ccedil;o de email</label>
+                        <input name="fr_username" type="email" class="form-control form-control-success" placeholder="user@server.dom" aria-describedby="usernameHelpBlock" required autofocus />
+                        <label for="fr_password"> Password</label>
+                        <input name="fr_password" type="password" class="form-control" placeholder="password" required />
+                        <button class="btn btn-lg btn-primary btn-block" type="button" onclick="submit_login()">Entrar</button>
+
+                        <div class="pull-left checkbox">
+                            <label for="fr_remember-me" ><input name="fr_remember-me" type="checkbox" value="false" /> Manter-me ligado</label>
+                        </div>
+
+                        <a href="#" class="pull-right need-help">Precisa de Ajuda? </a>
+
+                        <span class="clearfix"></span>
+
+
+                    </form>
+
+                </div>
+                <!--
+                <a href="#" class="text-center new-account">Pedir activação de conta</a>
+            -->
+        </div>
     </div>
+</div>
 
 
-    <!-- JAVA Script The last element to be loaded, for performance issues -->
-    <script type="text/javascript" src="js/redcross.js"> </script>
-  </body>
+<!-- JAVA Script The last element to be loaded, for performance issues -->
+<script type="text/javascript" src="js/redcross.js"> </script>
+</body>
 </html>
